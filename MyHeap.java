@@ -1,12 +1,4 @@
 public class MyHeap{
-
-	public static void main(String[] args){
-		int[] test = {0,0,0,0,0,0,0,1,1,1,1,0,1,1,0,1,2};
-		heapsort(test);
-		for(int i = 0; i < test.length; i++){
-			System.out.println(test[i]);
-		}
-	}
 	//We discussed these 2 methods already:
 private static void pushDown(int[]data,int size,int index){
     // - size  is the number of elements in the data array.  
